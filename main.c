@@ -55,6 +55,5 @@ u32 lcshift(u32 number, u32 shifts){
 	mask &= temp;
 	mask = mask >> ((sizeof(number)*8) - shifts);
 	number |= mask;
-	
 	return number;
 }
